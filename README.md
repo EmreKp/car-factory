@@ -1,6 +1,6 @@
-# Car Producer
+# Car Factory
 
-A virtual car producing application written in Spring Boot.
+A virtual car factory application written in Spring Boot.
 
 It gives 'x car has produced' message with entered parameter. For example, if parameter is Cabrio, result says `Cabrio Car has produced.`
 
