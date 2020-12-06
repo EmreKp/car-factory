@@ -10,10 +10,12 @@ Application currently supports three types of cars: Cabrio, Sedan, and Hatchback
 /?type=sedan
 ```
 
-and resulting response is only a string message such as 
+and resulting response is a JSON string such as 
 
 ```
-Sedan Car has produced.
+{
+  "result": "Sedan Car has produced."
+}
 ```
 
 To run the code, you must have Java JDK 11 and Maven 3+. Then you can run it by using an IDE (e.g. IntelliJ IDEA) or by command line with:
